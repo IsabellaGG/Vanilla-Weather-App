@@ -20,8 +20,40 @@
   </head>
   <body>
     <div class="container">
-      <h1>Weather App🍦</h1>
-    </div>
+      <div class="weather-app-wrapper">
+        <div class="weather-app">
+          <div class="overview">
+            <h1 id="city"> New York</h1>
+            <ul>
+              <li>Friday 17:20 <span id="date"></span></li>
+              <li id="description">Clear sky</li>
+            </ul>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <div class="clearfix weather-temperature">
+                <img src="" alt="Clear" id="icon" class="float-left" />
+                <div class="float-left">
+                  <strong id="temperature">21</strong
+                  ><span class="units"> °C</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <ul>
+                <li>Humidity: <span id="humidity"></span>%</li>
+                <li>Wind: <span id="wind"></span> m/h</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <small>
+          <a
+            href="https://github.com/IsabellaGG/Vanilla-Weather-App.git"
+            target="_blank"
+            >Open-source coded</a
+          >
+        with ❤ by Isabella Grable Govender
     <script src="app.js"></script>
   </body>
 </html>
