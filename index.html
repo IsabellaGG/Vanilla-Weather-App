@@ -20,6 +20,10 @@
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://kit.fontawesome.com/73ad80910e.js"
+      crossorigin="anonymous"
+    ></script>
     <link href="src/style.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <title>Vanilla Weather App 🍦</title>
@@ -38,17 +42,17 @@
           <div class="row">
             <div class="col-6">
               <div class="d-flex weather-temperature">
-                <img src="" alt="Clear" id="icon" />
+                <i class="fa-regular fa-circle" id="icon"></i>
                 <div class="float-left">
-                  <strong id="temperature">21</strong
-                  ><span class="units"> °C</span>
+                  <strong id="temperature">31</strong
+                  ><span class="units"> °C | <a href="#"> F</a></span>
                 </div>
               </div>
             </div>
             <div class="col-6">
               <ul>
-                <li>Humidity: <span id="humidity"></span>%</li>
-                <li>Wind: <span id="wind"></span> m/h</li>
+                <li class="humidity">Humidity: <span id="humidity"></span>%</li>
+                <li class="wind">Wind: <span id="wind"></span> m/h</li>
               </ul>
             </div>
           </div>

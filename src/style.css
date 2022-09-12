@@ -24,6 +24,14 @@ li {
   line-height: 19px;
 }
 
+i {
+  color: rgb(247, 179, 6);
+  font-size: 55px;
+  margin: 20px;
+  margin-right: 20px;
+  margin-left: 0;
+}
+
 .weather-app {
   padding: 30px;
   border: 1px solid rgb(70, 67, 68);
@@ -33,4 +41,25 @@ li {
 .weather-app-wrapper {
   max-width: 600px;
   margin: 100px auto;
+}
+
+.float-left {
+  padding-top: 10px;
+}
+
+.weather-temperature strong {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+
+.humidity {
+  padding-top: 20px;
 }
