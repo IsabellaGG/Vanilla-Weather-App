@@ -28,14 +28,6 @@ li:first-letter {
   text-transform: capitalize;
 }
 
-i {
-  color: rgb(247, 179, 6);
-  font-size: 55px;
-  margin: 20px;
-  margin-right: 20px;
-  margin-left: 0;
-}
-
 .weather-app {
   padding: 30px;
   border: 1px solid rgb(70, 67, 68);
