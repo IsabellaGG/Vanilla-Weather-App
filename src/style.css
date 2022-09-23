@@ -44,9 +44,9 @@ li:first-letter {
 
 .weather-app {
   padding: 20px;
-  border: 1px solid rgb(70, 67, 68);
+  border: 1px solid rgb(184, 227, 240);
   border-radius: 10px;
-  background: rgb(244, 232, 224);
+  background: rgb(184, 227, 240);
 }
 
 .overview {
@@ -101,4 +101,8 @@ li:first-letter {
 
 .weather-forecast-temperature-min {
   opacity: 0.6;
+}
+
+footer {
+  color: whitesmoke;
 }
