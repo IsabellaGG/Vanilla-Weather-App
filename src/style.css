@@ -86,10 +86,6 @@ li:first-letter {
   opacity: 0.6;
 }
 
-.forecast-image {
-  margin-left: -5px;
-}
-
 .weather-forecast-temperatures {
   font-size: 13px;
 }
