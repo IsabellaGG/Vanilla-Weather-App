@@ -1,6 +1,5 @@
 body {
   font-family: "Zen Kaku Gothic New", sans-serif;
-  background-color: rgb(244, 232, 224);
 }
 
 h1 {
@@ -36,9 +35,9 @@ li:first-letter {
 
 .weather-app {
   padding: 20px;
-  border: 1px solid rgb(244, 232, 224);
+  border: 1px solid rgb(70, 67, 68);
   border-radius: 10px;
-  background: radial-gradient(rgb(251, 214, 182) 12%, rgb(244, 214, 248) 100%);
+  background: rgb(244, 232, 224);
 }
 
 .overview {
@@ -50,8 +49,9 @@ li:first-letter {
 }
 
 .weather-temperature strong {
-  color: rgb(33, 33, 33);
+  color: #ec6e4c;
   font-size: 64px;
+  font-family: "Shadows Into Light", cursive;
   line-height: 1;
   font-weight: 400;
 }
